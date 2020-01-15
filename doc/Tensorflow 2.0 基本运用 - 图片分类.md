@@ -38,14 +38,14 @@ TensorFlow 2.0 版本相比 1.0 版本不是简单得更新，而是一次重大
 
 (1) 作用：
 
-- 用于创建一个 Sequential 模型。
-- Sequential 模型是一个线性的层堆栈。
+- 用于创建一个 Sequential 模型
+- Sequential 模型是一个线性的层堆栈
 
 ### 2. compile()
 
 (1) 作用：
 
-- 用于配置训练模型.
+- 用于配置训练模型
 
 (2) 函数原型：
 
@@ -65,14 +65,15 @@ compile(
 
 (3) 重要参数说明：
 
-- optimizer：字符串（优化器的名称）或优化器实例。  
-- loss：目标函数，或称损失函数，是网络中的性能函数，也是编译一个模型必须的两个参数之一。
+- optimizer：字符串（优化器的名称）或优化器实例
+- loss：目标函数，或称损失函数，是网络中的性能函数，也是编译一个模型必须的两个参数之一
 - metrics：列表，包含评估模型在训练和测试时的性能的指标，典型用法是 metrics=[‘accuracy’]
 
 ### 3. fit()
 
 (1) 作用：
-为固定数量的阶段（数据集上的迭代）训练模型。
+
+- 为固定数量的阶段（数据集上的迭代）训练模型
 
 (2) 函数原型：
 
@@ -102,14 +103,15 @@ fit(
 
 (3) 重要参数说明：
 
-- x: 输入数据。
+- x: 输入数据
 - y: 目标数据
 - epochs: 数据训练次数
 
 ### 4. evaluate()
 
 (1) 作用：
-返回测试模式下模型的损失值和度量值。
+
+- 返回测试模式下模型的损失值和度量值
 
 (2) 函数原型：
 
@@ -136,7 +138,8 @@ evaluate(
 ### 5. save_model()
 
 (1) 作用：
-将模型保存为 TensorFlow SavedModel 或 HDF5文件。
+
+- 将模型保存为 TensorFlow SavedModel 或 HDF5文件
 
 (2) 函数原型
 
@@ -154,13 +157,14 @@ tf.keras.models.save_model(
 
 (3) 重要参数说明：
 
-- model: 要保存的 Keras 模型实例。
+- model: 要保存的 Keras 模型实例
 - filepath: 模型保存路径
 
 ### 6. load_model()
 
 (1) 作用：
-加载通过 save_model 保存的模型。
+
+- 加载通过 save_model 保存的模型
 
 (2) 函数原型：
 
@@ -179,7 +183,8 @@ tf.keras.models.load_model(
 ### 7. predict()
 
 (1) 作用：
-为输入样本生成输出预测。
+
+- 为输入样本生成输出预测。
 
 (2) 函数模型
 
@@ -203,7 +208,7 @@ predict(
 (4) 返回值：
 预测的 Numpy array(s)
 
-这些 API 都是 TensorFlow 2.0 中常见的 API ，在使用 TensorFlow 2.0 时，我们几乎都会用到这些 API 。能熟练掌握这些 API 是非常重要的一件事情。下面，我们就通过一个实例来演示这些 API 的运用。
+这些 API 都是 TensorFlow 2.0 中常见的 API ，在使用 TensorFlow 2.0 时，我们都会用到这些 API 。能熟练掌握这些 API 是非常重要的一件事情。下面，我们就通过一个实例来演示这些 API 的运用。
 
 ## 三. 实例演示
 
@@ -413,7 +418,7 @@ print(a)
 print(np.argmax(a, axis=1))
 ```
 
-本节通过一个简单的图片分类程序，讲解了 TensorFlow2.0 的基本使用。在TensorFlow 中基本的应用程序框架为：载入数据，构建模型，编译模型，模型训练，模型评估，模型保存。我们一定要掌握这个基本的框架，然后再去深入学习。
+本节通过一个简单的图片分类程序，讲解了 TensorFlow2.0 的基本使用。在 TensorFlow 中基本的应用程序框架为：载入数据，构建模型，编译模型，模型训练，模型评估，模型保存。我们一定要掌握这个基本的框架，然后再去深入学习。
 
 ## 四. 推荐及参考资料：
 (1) [TensorFlow 官网](https://TensorFlow.google.cn/versions/r2.0/api_docs/python/tf)
