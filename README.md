@@ -1,2 +1,50 @@
-# save_model_usage_flow
-简单的介绍 tensorflow 流程
+<!--
+ * @描述: 
+ * @版本: V1_0_0
+ * @作者: LiWanglin
+ * @创建时间: 2019.12.30
+ * @最后编辑人: LiWanglin
+ * @最后编辑时间: 2019.12.31
+ -->
+
+![version](https://img.shields.io/badge/version-v__1__1-orange) [![licese](https://img.shields.io/badge/license-MIT-green)](https://github.com/WanglinLi595/version-control/blob/master/LICENSE)
+
+# Tensor
+
+## 项目简介
+
+- 本项目的目的是梳理自己在学习 TensorFlow 2.0 时的知识点以及编程思路，也为了方便他人在学习 TensorFlow 2.0 时能够多一份参考资料，能快速入门 TensorFlow 2.0 。
+  
+## 项目目录结构
+
+```C
+doc\        # 存放教程
+pic\        # 存放教程中所使用的图片
+src\        # 项目源码
+test_image\ # 测试图片
+LICENSE     # 项目许可证
+README.md   # 项目简介文件
+.gitignore  # 上传到 GitHub 时，忽略文件
+```
+
+重要文件：  
+
+[为什么要写文档_V_1_1.md](https://github.com/WanglinLi595/Why_Write_Technical_Documents/blob/master/docs/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E6%96%87%E6%A1%A3_V_1_1.md)  
+[为什么要写文档 _V_1_1.pdf](https://github.com/WanglinLi595/Why_Write_Technical_Documents/blob/master/docs/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E6%96%87%E6%A1%A3_V_1_1.pdf)
+
+## 项目说明
+
+- 当前版本：V_1_0
+- 主要任务：
+  本项目的目的是梳理自己在学习 TensorFlow 2.0 时的知识点以及编程思路。
+- 版本历史更改说明
+  无
+
+## 作者
+
+黎旺林 联系邮箱：1156494696@qq.com
+
+## 许可证
+
+本开源项目使用 MIT 许可证，具体说明请查看 [LICENSE](https://github.com/WanglinLi595/Why_Write_Technical_Documents/blob/master/LICENSE) 文件。
+
