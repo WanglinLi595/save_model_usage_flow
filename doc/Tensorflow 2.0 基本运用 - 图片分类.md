@@ -421,7 +421,7 @@ print(np.argmax(a, axis=1))
 本节通过一个简单的图片分类程序，讲解了 TensorFlow2.0 的基本使用。在 TensorFlow 中基本的应用程序框架为：载入数据，构建模型，编译模型，模型训练，模型评估，模型保存。我们一定要掌握这个基本的框架，然后再去深入学习。
 
 ## 四. 推荐及参考资料：
-(1) [TensorFlow 官网](https://TensorFlow.google.cn/versions/r2.0/api_docs/python/tf)
-(2) [tensorflow2.0入门与实战](https://www.bilibili.com/video/av62215565?from=search&seid=2367606231809499888)
-(3) [知乎 TensorFlow 2 教程](https://zhuanlan.zhihu.com/c_1091021863043624960)
-(4) [TensorFlow 2.0 高效开发指南](https://www.jianshu.com/p/362a50826268)
+(1) [TensorFlow 官网](https://TensorFlow.google.cn/versions/r2.0/api_docs/python/tf)    
+(2) [tensorflow2.0入门与实战](https://www.bilibili.com/video/av62215565?from=search&seid=2367606231809499888)  
+(3) [知乎 TensorFlow 2 教程](https://zhuanlan.zhihu.com/c_1091021863043624960)  
+(4) [TensorFlow 2.0 高效开发指南](https://www.jianshu.com/p/362a50826268)  
