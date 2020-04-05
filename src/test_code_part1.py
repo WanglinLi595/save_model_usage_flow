@@ -12,6 +12,7 @@
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
+import time
 
 # 打印 Tensorflow 版本以及是否支持 GPU 加速
 print("Tensorflow version ：",tf.__version__) 
@@ -39,12 +40,18 @@ if __name__ == "__main__":
                 loss="sparse_categorical_crossentropy",
                 metrics=['acc'])
 
+    start_time = time.clock()
+
     # 模型训练
-    model.fit(train_images, train_labels, epochs=50)
+    model.fit(train_images, train_labels, epochs=20)
+
+    end_time = time.clock()
+
+    print("训练时间为：", end_time - start_time)
 
     # 得到模型准确率
-    loss, acc = model.evaluate(test_images, test_labels)
-    print("The acc is ",acc*100, "%")
+    # loss, acc = model.evaluate(test_images, test_labels)
+    # print("The acc is ",acc*100, "%")
 
     # 保存模型
     keras.models.save_model(model, "save_model")

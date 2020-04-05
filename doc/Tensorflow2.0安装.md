@@ -34,15 +34,15 @@ activate Tensorflow2.0_GPU
 - 输入 conda install tensorflow-gpu==2.0.0 ，安装 tensorflow 2.0 GPU 版本
 - 安装完成后，在 vscode 里面切换虚拟环境为Tensorflow2.0_GPU，输入代码：
 
-```python
-import tensorflow as tf
+    ```python
+    import tensorflow as tf
 
-print('-'*10,"\n")
-print(tf.test.is_gpu_available())
-print('-'*10,"\n")
-```
+    print('-'*10,"\n")
+    print(tf.test.is_gpu_available())
+    print('-'*10,"\n")
+    ```
 
 如果打印结果为：Ture，则 tensorflow GPU 版安装成功。
-<div align=center>
-<img src=https://github.com/WanglinLi595/Save_Markdown_Picture/blob/master/tensorflow_usage_flow/tensorflow_GPU_1.png?raw=true>
-</div>
+    <div align=center>
+    <img src=https://github.com/WanglinLi595/Save_Markdown_Picture/blob/master/tensorflow_usage_flow/tensorflow_GPU_1.png?raw=true>
+    </div>
